@@ -31,6 +31,12 @@ const links = [
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
+  {
+    text: "Network Automation",
+    url: "https://www.gatsbyjs.com/cloud",
+    description:
+      "We can automate your network workflows with Commercial and Open Source tools.",
+  },
 ]
 
 const samplePageLinks = [
@@ -73,7 +79,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/gatsby-icon.png"
         loading="eager"
         width={64}
         quality={95}
@@ -82,7 +88,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        alpharez.com
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
