@@ -11,37 +11,19 @@ const links = [
     text: "Network Automation",
     url: "https://www.gatsbyjs.com/cloud",
     description:
-      "We can automate your network workflows with Commercial and Open Source tools.",
-  },
-  {
-    text: "Security Automation",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Consulting",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "In today’s fast-paced digital landscape, manual network management is no longer sustainable. Enter network automation—the process of automating the configuration, management, testing, deployment, and operation of both physical and virtual devices within a network. By leveraging software-defined solutions, businesses can achieve improved efficiency, reduced human error, and lower operating expenses.",
   },
   {
     text: "Applications",
     url: "https://www.gatsbyjs.com/plugins",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Web",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "In the dynamic landscape of today’s business world, application development is the heartbeat of innovation. At [Your Company Name], we specialize in crafting robust, user-centric applications across various platforms—mobile, web, desktop, smartwatch, VR, and AR. Our seasoned engineers transform ideas into unforgettable digital experiences, whether it’s a consumer-facing app or a B2B solution.",
   },
   {
     text: "Cloud",
     url: "https://www.gatsbyjs.com/cloud",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "In today’s digital landscape, enterprises rely on cloud services for agility, scalability, and innovation. At Alpharez, we specialize in bridging the gap between your existing infrastructure and the cloud, ensuring a harmonious blend of on-premises systems and cloud-based solutions.",
   },
 ]
 
