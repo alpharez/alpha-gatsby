@@ -29,19 +29,17 @@ const links = [
 
 const samplePageLinks = [
   {
-    text: "Page 2",
-    url: "page-2",
+    text: "Projects",
+    url: "Projects",
     badge: false,
     description:
-      "A simple example of linking to another page within a Gatsby site",
+      "Projects Page",
   },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
 const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+  { text: "Join us on Discord", 
+    url: "https://gatsby.dev/discord" },
   {
     text: "Documentation",
     url: "https://gatsbyjs.com/docs/",
@@ -58,7 +56,8 @@ const moreLinks = [
     text: "Contributing",
     url: "https://www.gatsbyjs.com/contributing/",
   },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
+  { text: "Issues", 
+    url: "https://github.com/gatsbyjs/gatsby/issues" },
 ]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
@@ -79,7 +78,7 @@ const IndexPage = () => (
         alpharez.com
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        {" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
@@ -87,7 +86,7 @@ const IndexPage = () => (
           </React.Fragment>
         ))}
         <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        
       </p>
     </div>
     <ul className={styles.list}>
