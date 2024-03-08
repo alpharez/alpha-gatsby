@@ -17,7 +17,7 @@ const links = [
     text: "Applications",
     url: "https://www.gatsbyjs.com/plugins",
     description:
-      "In the dynamic landscape of today’s business world, application development is the heartbeat of innovation. At [Your Company Name], we specialize in crafting robust, user-centric applications across various platforms—mobile, web, desktop, smartwatch, VR, and AR. Our seasoned engineers transform ideas into unforgettable digital experiences, whether it’s a consumer-facing app or a B2B solution.",
+      "In the dynamic landscape of today’s business world, application development is the heartbeat of innovation. At Alpharez, we specialize in crafting robust, user-centric applications across various platforms—mobile, web, desktop, smartwatch, VR, and AR. Our seasoned engineers transform ideas into unforgettable digital experiences, whether it’s a consumer-facing app or a B2B solution.",
   },
   {
     text: "Cloud",
