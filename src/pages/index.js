@@ -27,9 +27,16 @@ const links = [
   },
 ]
 
-const samplePageLinks = [
+const headerPageLinks = [
   {
     text: "Projects",
+    url: "Projects",
+    badge: false,
+    description:
+      "Projects Page",
+  },
+  {
+    text: "About Us",
     url: "Projects",
     badge: false,
     description:
@@ -79,10 +86,10 @@ const IndexPage = () => (
       </h1>
       <p className={styles.intro}>
         {" "}
-        {samplePageLinks.map((link, i) => (
+        {headerPageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
+            {i !== headerPageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
         <br />
